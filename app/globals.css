@@ -14,10 +14,49 @@
   cursor: pointer;
 }
 
+.res{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 50px;
+  height: 30px;
+}
+
+.pai2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.fundo{
+  background-color: rgb(49, 49, 49);
+  width: 323px;
+}
+
+.numero{
+  display: flex;
+  justify-content: end;
+}
+
+.numeroTitle{
+  font-size: 50px;
+  margin-right: 15px;
+}
+
 .pai{
   background-color: rgb(49, 49, 49);
   display: flex;
-  width: 320px;
+  width: 323px;
+  justify-content: center;
   height: 398px;
   flex-wrap: wrap;
 }
