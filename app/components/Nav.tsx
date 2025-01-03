@@ -9,9 +9,9 @@ export default function Nav(){
            </div>
 
             <div className="select">
-                <p className="pzinhos">–</p>
-                <p  className="pzinhos">☐</p>
-                <p  className="pzinhos">X</p>
+                <p className="pzinhos hover:bg-zinc-700">–</p>
+                <p  className="pzinhos hover:bg-zinc-700">☐</p>
+                <p  className="pzinhos hover:bg-red-500 hover:text-white">X</p>
             </div>
         </div>
     )
