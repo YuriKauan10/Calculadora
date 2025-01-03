@@ -11,7 +11,19 @@
   width: 74px;
   height: 57px;
   border-radius: 3px;
-  cursor: pointer;
+}
+
+.divHeader{
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+.divIcons{
+  display: flex;
+  gap: 10px;
 }
 
 .res{
@@ -57,7 +69,7 @@
   display: flex;
   width: 323px;
   justify-content: center;
-  height: 398px;
+  height: 380px;
   flex-wrap: wrap;
 }
 
